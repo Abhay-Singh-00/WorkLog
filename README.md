@@ -1,70 +1,77 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    #WorkLog - Employee Performance Management and Compensation Tracking
+    
+    <h2>Project Overview</h2>
+    <p>
+        <strong>WorkLog</strong> is a web-based <strong>Single Page Application (SPA)</strong> designed to streamline 
+        employee performance evaluation and compensation tracking. The system is built to empower organizations to manage 
+        their workforce efficiently by providing a centralized platform for monitoring employee performance, recording achievements, 
+        and ensuring transparent compensation management.
+    </p>
+    
+    <h2>Key Features</h2>
+    <ul>
+        <li>
+            <strong>Performance Evaluation:</strong>
+            <ul>
+                <li>Track and assess employee performance based on predefined metrics.</li>
+                <li>Generate comprehensive performance reports and analytics.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Compensation Management:</strong>
+            <ul>
+                <li>Maintain a detailed log of employee salaries, bonuses, and other compensations.</li>
+                <li>Automate calculations and ensure accurate payroll records.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>User Roles and Access Control:</strong>
+            <ul>
+                <li>Role-based access for administrators, managers, and employees.</li>
+                <li>Secure data handling and access permissions for sensitive information.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Interactive Dashboard:</strong>
+            <ul>
+                <li>Real-time visualization of key performance indicators (KPIs).</li>
+                <li>Graphs, charts, and tables for intuitive insights.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Data Integration:</strong>
+            <ul>
+                <li>Seamless integration with relational databases for reliable data storage and retrieval.</li>
+                <li>Support for CRUD operations (Create, Read, Update, Delete).</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h2>Technology Stack</h2>
+    <ul>
+        <li><strong>Frontend:</strong> JavaServer Faces (JSF), HTML, CSS, Bootstrap for a user-friendly and responsive UI.</li>
+        <li><strong>Backend:</strong> Spring Boot framework for robust API development and business logic implementation.</li>
+        <li><strong>Database:</strong> Relational database (MySQL/Oracle) for efficient data storage and querying.</li>
+    </ul>
+    
+    <h2>Objectives</h2>
+    <ul>
+        <li>To simplify and optimize employee performance monitoring.</li>
+        <li>To enhance transparency and accuracy in compensation tracking.</li>
+        <li>To provide an easy-to-use interface for better user experience.</li>
+    </ul>
+    
+    <h2>Development Approach</h2>
+    <p>
+        The project follows an <strong>Agile methodology</strong> to ensure iterative progress and alignment with user needs. 
+        The modular design enables scalability for future enhancements, such as integrating AI for predictive analytics.
+    </p>
+    
+    <h2>Applications</h2>
+    <ul>
+        <li>Suitable for small to medium-sized enterprises to manage their workforce efficiently.</li>
+        <li>Can be extended to large organizations with advanced features like predictive performance evaluation 
+            and employee satisfaction analytics.</li>
+    </ul>
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
