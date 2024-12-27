@@ -1,0 +1,10 @@
+
+  /* Hover effect for buttons */
+  .hover-button {
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  .hover-button:hover {
+    transform: scale(1.05);
+    filter: brightness(0.9);
+  }
+  
