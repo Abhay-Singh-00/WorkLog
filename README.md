@@ -1,5 +1,5 @@
 
-    #WorkLog - Employee Performance Management and Compensation Tracking
+    # WorkLog - Employee Performance Management and Compensation Tracking
     
     <h2>Project Overview</h2>
     <p>
