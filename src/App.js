@@ -24,15 +24,15 @@ function App() {
       <Route path='/' element={<LoginPage/>}>
       <Route path='IndividualLoginForm' element={<IndividualLogin/>}/>
       <Route path='CompanyLoginForm' element={<CompanyLoginForm/>}/>
-      <Route path='companyregister' element={<CompanyRegister/>}/>
+      <Route path='CompanyRegister' element={<CompanyRegister/>}/>
       </Route>
-      <Route path='/individualdashboard' element={<IndividualDashboard/>}>
+      <Route path='/IndividualDashboard' element={<IndividualDashboard/>}>
       <Route path='LeaveRequest' element={<LeaveRequestPage/>}/>
-      <Route path='report' element={<ReportsPage/>}/>
+      <Route path='Report' element={<ReportsPage/>}/>
       </Route>
-      <Route path='/companylogin' element={<CompanyLogin/>}/>
+      <Route path='/CompanyLogin' element={<CompanyLogin/>}/>
       <Route path='/ManagersPage' element={<ManagersPage/>}/>
-      <Route path='/adminpanel' element={<AdminPanelPage/>}/>
+      <Route path='/AdminPanel' element={<AdminPanelPage/>}/>
       
       </Routes> 
     </Router>
