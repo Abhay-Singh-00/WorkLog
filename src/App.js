@@ -19,7 +19,7 @@ function App() {
 
 
   return (
-    <Router basename="/worklog">
+    <Router basename="/WorkLog">
       <Routes>
       <Route path='/' element={<LoginPage/>}>
       <Route path='IndividualLoginForm' element={<IndividualLogin/>}/>
