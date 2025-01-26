@@ -4,8 +4,9 @@ import { useNavigate } from "react-router-dom";
 
 const CompanyLoginForm=()=>{
   const navigate=useNavigate();
-  const navigateDashboard=()=>
+  const navigateDashboard=(event)=>
   {
+    event.preventDefault();
     navigate("/CompanyLogin");
   };
     return(
