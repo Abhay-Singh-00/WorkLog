@@ -2,9 +2,10 @@ body{
     background-image: url("https://c1.wallpaperflare.com/preview/588/623/690/interior-white-office-workspace.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity:0.9;
+    opacity:1;
     background-position:center;
     background-attachment: fixed;
+    /* backdrop-filter: blur(1px); */
 }
 
 .custom

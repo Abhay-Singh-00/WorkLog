@@ -4,20 +4,20 @@ import ServicesData from './ServicesData';
 
 const Servies=()=>{
     return(
-        <div style={{backgroundColor:'transparent'}}>
+        <div style={{backgroundColor:'transparent'}} >
          <Container>
             <h1>Services</h1>
-            <Row>
+            <Row >
                {ServicesData.map((val,index)=>(
-                <Col xs={6} md={6} className="mt-5">
-                    <Card style={{width:'38rem'}}>
+                <Col  md={6} className="mt-5">
+                    <Card  className='shadow'>
                         <Row className='no-gutters'>
-                        <Col md={4}>
+                        <Col xs={3} md={4}>
                         <Card.Img variant="left" src={val.imgsrc} className='img-thumbnail' roundedCircle/>
                          </Col>
-                         <Col md={8}>
+                         <Col xs={9} md={8}>
                         <Card.Body>
-                        <Card.Title className='mb-3'>{val.cardTitle}</Card.Title> 
+                        <Card.Title className='mb-3 text-primary'>{val.cardTitle}</Card.Title> 
                         <Card.Text>{val.cardText}</Card.Text>
                         </Card.Body>
                         </Col>

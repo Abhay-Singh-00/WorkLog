@@ -8,6 +8,7 @@ import './Overlay.css';
 import { Outlet, useNavigate,useLocation } from 'react-router-dom';
 import Services from './Services';
 import About from './About';
+import Contact from './Contact';
 
 function LoginPage() {
   const navigate=useNavigate();
@@ -52,7 +53,7 @@ document.removeEventListener('mousedown',handleClickOutside);
         {/* Main Content */}
         <div className="container mt-5 px-3">
   <div className="row justify-content-center gx-3">
-    <div className="col-12 mt-5 text-center">
+    <div className="col-12 mt-5 text-center text-black">
       <h1>Work Log</h1>
       <h2>"Work Smarter, Manage Better with WorkLog."</h2>
     </div>
@@ -72,6 +73,7 @@ document.removeEventListener('mousedown',handleClickOutside);
   </div>)
  }
  <About/>
+ <Contact/>
     </div>
   );
 }
