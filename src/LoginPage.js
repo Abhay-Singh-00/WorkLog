@@ -6,6 +6,8 @@ import Logincards from './Logincards';
 import CardsData from './CardsData';
 import './Overlay.css';
 import { Outlet, useNavigate,useLocation } from 'react-router-dom';
+import Services from './Services';
+import About from './About';
 
 function LoginPage() {
   const navigate=useNavigate();
@@ -43,7 +45,7 @@ document.removeEventListener('mousedown',handleClickOutside);
 
   return (
     <div className="LoginPage">
-      <div className="custom overflow-auto">
+      <div className="custom">
         {/* Navbar */}
         <Navbar/>
         
@@ -61,6 +63,7 @@ document.removeEventListener('mousedown',handleClickOutside);
 </div>
 </div>
 </div>
+<Services/>
  {overlayPaths.includes(location.pathname)&&
  (<div className='overlay'>
   <div ref={overlayRef} className='overlay-content'>
@@ -68,6 +71,7 @@ document.removeEventListener('mousedown',handleClickOutside);
   </div>
   </div>)
  }
+ <About/>
     </div>
   );
 }
