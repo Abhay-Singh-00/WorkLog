@@ -4,7 +4,7 @@ import ServicesData from './ServicesData';
 
 const Servies=()=>{
     return(
-        <div style={{backgroundColor:'transparent'}} >
+        <div style={{backgroundColor:'transparent'}} id='services'>
          <Container>
             <h1>Services</h1>
             <Row >

@@ -20,7 +20,7 @@ const CompanyLoginForm=()=>{
                   src="https://via.placeholder.com/100"
                   alt="Company Logo"
                   className="mb-3"
-                  style={{ width: "80px", height: "80px" }}
+                  style={{ width: "80px", height:"80px" }}
                 />
                 <h4 className="fw-bold">Company Login</h4>
               </div>

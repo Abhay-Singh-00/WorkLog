@@ -3,8 +3,8 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const About = () => {
     return (
-        <Container className=" mb-5">
-            <h1 className="mt-5 mb-5">About Us</h1>
+        <Container className=" mb-5" id="about">
+            <h1 className="mt-5 mb-5" >About Us</h1>
             <Row>
                 <Col>
                 <Card className='shadow'>

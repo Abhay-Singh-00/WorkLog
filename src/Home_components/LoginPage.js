@@ -1,10 +1,11 @@
 import React, { useEffect, useState ,useRef} from 'react';
-import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Navbar from './Navbar';
 import Logincards from './Logincards';
 import CardsData from './CardsData';
-import './Overlay.css';
+import '../Overlay.css';
 import { Outlet, useNavigate,useLocation } from 'react-router-dom';
 import Services from './Services';
 import About from './About';

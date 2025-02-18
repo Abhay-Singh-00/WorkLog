@@ -3,10 +3,10 @@ import { Card, Row, Col, ProgressBar, ListGroup } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css'; // Import default styles for the calendar
-import './Dashboard.css'; // Import custom CSS for button hover effects
+import '../Dashboard.css'; // Import custom CSS for button hover effects
 import TaskProgress from './TaskProgress';
 import { Outlet,useLocation, useNavigate } from 'react-router-dom';
-import './Overlay.css';
+import '../Overlay.css';
 
 const IndividualDashboard = () => {
   const [date, setDate] = useState(new Date()); // This state will hold the selected date
