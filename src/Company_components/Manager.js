@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Table, Button, Modal, Form } from 'react-bootstrap';
+import Sales from './Sales';
 
 const ManagersPage = () => {
   const [showTaskModal, setShowTaskModal] = useState(false);
@@ -188,6 +189,7 @@ const ManagersPage = () => {
           </Button>
         </Modal.Footer>
       </Modal>
+      <Sales/>
     </Container>
   );
 };
